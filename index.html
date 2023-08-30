@@ -20,8 +20,75 @@
 			box-shadow: 0px 0px 20px black;
 			border-radius: 250px;
 			margin-top: 50px;
+			transition-duration: 5s;
 
 		}
+		.myimage:hover
+		{
+			margin-left: 30px;
+			border-radius: 200px;
+			box-shadow: 20px 10px 90px grey;
+		}
+		.TANVI
+		{
+			font-size: 30px;
+/*		text-shadow: 0px 0px 10px darkcyan;*/
+			 -webkit-text-stroke: 2px;
+			 transition-duration: 5s;
+			 font-family: monospace;
+
+				
+				
+		}
+		.TANVI:hover
+		{
+			font-size: 70px;
+			text-shadow: maroon;
+			color: rebeccapurple;
+			font-family: revert-layer;
+
+		}
+		.greeting
+		{
+			font-size: 30px;
+			font-variant: small-caps;
+			font-weight: bolder;
+			color: maroon;
+			transition-duration: 5s;
+			
+
+		}
+		.greeting:hover
+		{
+				font-size: 50px;
+				font-weight: revert-layer;
+				font-family: sans-serif;
+				text-shadow: 4px 4px 8px blueviolet;
+
+		}
+		.rsmbtn
+		{
+			border: none;
+			height: 50px;
+			width: 120px;
+			font-size: 20px;
+			color: blueviolet;
+			border-radius:13px ;
+			font-weight: bolder;
+			background-color: pink;
+			transition-duration: 5s;
+		}
+		.rsmbtn:hover
+		{
+			transform: scale(1.2);
+			background-color: white;
+			color: hotpink;
+			border:4px  solid pink;
+			box-shadow: 5px 5px 10px black;
+			font-size: 20px;
+			font-family: monospace;
+			margin-top: 20px;
+					}
 	</style>
 
 
@@ -29,7 +96,7 @@
 <body>
 		<div>
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"> <span class="myname">CHIUU</span></a>
+  <a class="navbar-brand" href="#"> <span class="myname">TANVI</span></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -61,9 +128,29 @@
 
 		</div >
 		<!-- navigation bar closed -->
-		<div align="center"  >
-			<img src="https://st.depositphotos.com/2666555/3067/i/450/depositphotos_30679125-stock-photo-wha-wha-what.jpg" height="500px" width="500px" class="myimage">
-			<h1 class="myname">CHIUU</h1>
+		<div class="tablediv" align="center" >
+			<table  width="90%" >
+				<tr>
+					<td><div align="center"  >
+			<img src="C:\Users\HP\Desktop\mee\Screenshot_20230604-012446_Instagram.jpg" height="500px" width="500px" class="myimage">
+			
+		</div></td>
+				
+					<td align="center">
+						<div>
+							<p class="greeting">
+								HELLO MY NAME IS 
+								<h1 class="myname TANVI">TANVI</h1>
+							</p>
+							<p class="greeting">I am a Full Stack Developer</p>
+							<div align="center">
+								<a href="TANVI.docx" download><button class="rsmbtn">RESUME</button></a>
+							</div>
+						</div>
+						
+					</td>
+		
+			</table>
 		</div>
 </body>
 </html>
